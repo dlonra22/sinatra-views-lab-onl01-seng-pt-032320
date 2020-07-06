@@ -1,3 +1,4 @@
+require 'environment'
 class App < Sinatra::Base
 
 	get '/' do
