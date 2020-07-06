@@ -6,10 +6,10 @@
     <body>
         <h1>Today</h1>
         <% d = Date.today %>
-        <% dayname = d.strftime('%A')%>
-        <% daynumber = d.strftime('%d')%>
-        <% month = d.strftime('%B')%>
-        <% year = d.strftime('%Y')%>
-        <p><%= "The date is " + dayname+", "</p>
+        <% dn = d.strftime('%A')%>
+        <% dno = d.strftime('%d')%>
+        <% m = d.strftime('%B')%>
+        <% y = d.strftime('%Y')%>
+        <p><%= "The date is " + dn + ", " + dno + ", "</p>
     </body>
 </html>
